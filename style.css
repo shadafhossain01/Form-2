@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Gloria+Hallelujah&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background: #fad9d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .container{
+    width: 851px;
+    height: 551px;
+    background: #fffdfd;
+    box-shadow: 3px 3px 12px 2px rgba(151,127,126,0.3);
+    display: flex;
+}
+
+.container .left{
+    flex-basis: 47%;
+    height: 551px;
+    background: url('image/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.container .right{
+    flex-basis: 53%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box-form h1{
+    text-align: center;
+    font-family:sans-serif;
+    color: #ff9a9c;
+    font-weight: 650;
+    font-size: 35px;
+    margin-bottom: -5px;
+}
+
+.box-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-1{
+    color: #ff9a9c;
+}
+.box-form .box-1 input{
+    width: 327px;
+    height: 46px;
+    background: #f7f7f7;
+    border: none;
+    outline: none;
+    caret-color: #ff9a9c;
+    border-radius: 25px;
+    margin: 25px 0px 0px 13px;
+    padding-left:24px ;
+
+}
+.radio{
+    margin-top: 25px;
+font-size: 20px;
+position: relative;
+}
+
+
+#s-1{
+    margin-left:15px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #999999;
+   
+
+}
+.sp {
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+    font-size: 5px;
+    background-color: #ff9a9c;
+}
+
+
+#s-2{
+    color: #ffa0a2;
+}
+.btn-box{
+    margin-top: 34px;
+}
+#b-1{
+    padding: 14px 32px;
+    border-radius: 35px;
+    margin-right: 8px;
+
+}
+#s-3{
+    color: #999999;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+
+
+#s-4{
+    text-decoration: none;
+    color: #ffa0a2;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Didact Gothic', sans-serif;
+}
+#b-1{
+    background: #ff9a9c;
+    color: #fffafa;
+    font-family: 'Didact Gothic', sans-serif;
+    border:none;
+    outline: none;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+}
+
+#b-1:hover{
+    background: #ff9192;
+    box-shadow: 2px 2px  12px rgba(255,154,156,0.8);
+}
+
